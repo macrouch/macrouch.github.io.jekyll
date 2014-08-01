@@ -21,3 +21,11 @@
 h3 {
   color: #777;
 }
+
+ul.tags {
+  list-style-type: none;
+}
+
+.tag_list_item {
+  display: inline;
+}
