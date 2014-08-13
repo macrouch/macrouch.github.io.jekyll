@@ -10,3 +10,4 @@ github_username:  macrouch
 # Build settings
 markdown: kramdown
 permalink: pretty
+highlighter: pygments

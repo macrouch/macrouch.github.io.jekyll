@@ -17,7 +17,7 @@ layout: default
     Tags:
     {% for tag in page.tags %}
       <li class="tag_list_item">
-        <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a>
+        <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
       </li>
     {% endfor %}
     {% endif %}
