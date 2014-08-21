@@ -1,6 +1,16 @@
 ---
 layout: default
 ---
+
+<script>
+  $(document).ready(function() {
+    $(".fancybox").fancybox({
+      openEffect	: 'fade',
+      closeEffect	: 'fade'
+    });
+  });
+</script>
+
 <div class="post">
 
   <header class="post-header">
@@ -23,4 +33,10 @@ layout: default
     {% endif %}
   </ul>
 
+</div>
+
+<div class="comments">
+  {% if page.comments %}
+    {% include comments.html %}
+  {% endif %}
 </div>

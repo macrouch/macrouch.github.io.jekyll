@@ -1,18 +1,10 @@
 ---
 layout: post
 title: My Printrbot Simple 2014
+comments: true
 tags:
   - 3D Printing
 ---
-
-<script>
-  $(document).ready(function() {
-  	$(".fancybox").fancybox({
-  		openEffect	: 'fade',
-  		closeEffect	: 'fade'
-  	});
-  });
-</script>
 
 A few months ago, I bought a Printrbot Simple 2014 3d printer. It has been a ton of fun to print mostly useless things out of plastic. There is a fantastic open source community in the 3d printing world, and I quickly found models that I could print to improve features of my printer. Here is a list of the upgrades I have printed for my Printrbot Simple 2014.
 

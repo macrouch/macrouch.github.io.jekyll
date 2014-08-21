@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Gotta Go?! How To Monitor A Door With Arduino"
+title: "Gotta Go?! How To Monitor a Door with Arduino"
 tags:
   - Arduino
   - Ruby on Rails
+  - How To
 ---
 
 This project needs a little back story before I get into the details. At my office, we share a restroom with a few other offices. The restroom is located in the common hallway between all of the offices on our floor of the building. As you might imagine, periodically you will get to a good stopping point in your work, get up from your desk and go into the hallway, only to discover a shut restroom door. Now you have to go back to your desk, wait a few minutes and check again. At this point you have wasted a lot more time then if you could just check to see if the door was shut, and only worry about stopping your work if the restroom was available. This spawned many conversations about how useful a "restroom door monitor" would be.

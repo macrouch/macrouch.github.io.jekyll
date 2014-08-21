@@ -6,6 +6,7 @@ baseurl: ""
 url: "http://matt-crouch.com"
 twitter_username: matt_crouch
 github_username:  macrouch
+disqus_short_name: matt-crouch
 
 # Build settings
 markdown: kramdown
