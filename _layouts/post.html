@@ -37,6 +37,8 @@ layout: default
 
 <div class="comments">
   {% if page.comments %}
-    {% include comments.html %}
+    {% if site.serving_publicly %}
+      {% include comments.html %}
+    {% endif %}
   {% endif %}
 </div>
